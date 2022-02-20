@@ -8,7 +8,7 @@ with open ("once.txt","r") as file:
 
     for i in okunan:
         okunan2 = okunan2 + " " + i
-
+    
 with open ("sonra.txt","w") as file_write:
     file_write.write(okunan2)
     
